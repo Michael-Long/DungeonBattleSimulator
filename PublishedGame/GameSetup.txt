@@ -1,0 +1,13 @@
+To Setup:
+
+In your main hard drive (normally C:), go to Program Files, then Java. If Java is not found, then you'll have to install Java on
+your PC, which can be found at: https://www.java.com/en/download/
+
+Inside the Java folder, find the folder with the name of jre with some numbers. Remember the ENITRE name of that folder.
+
+Then, right-click on the run.bat file included in this package and click edit. Locate the section of this file where
+it says "%ProgramFiles%\Java\jre____\bin\java.exe". Replaces the jre portion with the entire name of the folder you
+found earlier. Save this file when done.
+
+Finally, double-click the run.bat file to start the game! If you get an error saying:
+"The system cannot find the path specified.", then make sure you entered the correct jre name.
